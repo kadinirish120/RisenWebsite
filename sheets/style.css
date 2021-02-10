@@ -1,24 +1,47 @@
 * {
   margin: 0;
   padding: 0;
+  border: none;
+}
+
+body {
+  background-color: #000;
 }
 
 header {
+  margin-top: 10px;
   width: 100%;
-  position: fixed;
-  z-index: 10;
-  padding: 2em, 5em;
-  background-color: darkgray;
+  position: fixed relative;
   color: white;
+  background-color: #000;
   text-align: center;
+  z-index: 10;
 }
 
 header ul {
-  margin: 30px auto;
+
 }
 
 header li {
   display: inline-block;
-  font: 30px Georgia, serif bold;
-  margin: 0 2%;
+  font: 1em Georgia bold;
+}
+
+.navButton {
+  height: 1em;
+  width: 3em;
+  padding: 30px 1em;
+  background-color: #000;
+}
+
+.onPage {
+  background-color: grey;
+}
+
+.banner {
+  position: relative fixed;
+  top: 5em;
+  margin: 0 17%;
+  width: 66%;
+  z-index: 0;
 }
