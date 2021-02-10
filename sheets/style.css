@@ -25,23 +25,28 @@ header ul {
 header li {
   display: inline-block;
   font: 1em Georgia bold;
+  text-align: center;
 }
 
 .navButton {
   height: 1em;
-  width: 3em;
+  width: 6em;
   padding: 30px 1em;
   background-color: #000;
+  border-radius: 5px;
+  font: 24px Georgia;
+  color: #ff8c1a
 }
 
-.onPage {
-  background-color: grey;
+.navButton:hover {
+  background-color: #505050;
 }
+
 
 .banner {
   position: relative fixed;
   top: 5em;
-  margin: 0 17%;
+  margin: 0 16% 0 18%;
   width: 66%;
   z-index: 0;
 }
