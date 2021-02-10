@@ -8,45 +8,59 @@ body {
   background-color: #000;
 }
 
-header {
-  margin-top: 10px;
+nav {
+  margin: 10px 0px;
   width: 100%;
   position: fixed relative;
   color: white;
   background-color: #000;
   text-align: center;
   z-index: 10;
+  border-bottom: 5px;
+  border-color: gray;
 }
 
-header ul {
-
-}
-
-header li {
+nav li {
   display: inline-block;
-  font: 1em Georgia bold;
   text-align: center;
 }
 
 .navButton {
   height: 1em;
-  width: 6em;
+  width: 10%;
+  min-width: 100px;
   padding: 30px 1em;
   background-color: #000;
   border-radius: 5px;
-  font: 24px Georgia;
-  color: #ff8c1a
+  font: 32px "Times New Roman";
+  color: #fff
 }
 
-.navButton:hover {
+.navButton a, a:visited {
+  text-decoration: none;
+  color: #ff8c1a;
+}
+
+.navButton:hover, .onPage{
   background-color: #505050;
 }
 
+#navBuffer {
+  height: 5px;
+  background: darkgrey;
+}
+
+.container {
+  margin: auto;
+  width: 66%;
+}
 
 .banner {
-  position: relative fixed;
-  top: 5em;
-  margin: 0 16% 0 18%;
-  width: 66%;
+  width: 100%;
   z-index: 0;
+}
+
+#guildName {
+  color: #fff;
+  text-align: center;
 }
